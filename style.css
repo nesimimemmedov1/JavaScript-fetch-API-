@@ -1,0 +1,75 @@
+body {
+  background-color: tomato !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: 0;
+}
+
+#list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#list .photo {
+  width: calc(100%/3 - 20px);
+  margin: 0px 10px;
+  border-radius: 30px;
+  background: antiquewhite;
+  margin: 10px;
+}
+
+#list .photo img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+}
+
+#list .photo .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+#list .photo .about .about-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+#list .photo .about .about-picture h5 {
+  margin-bottom: 0;
+  margin: 0 5px;
+}
+
+#list .photo .about h1 {
+  display: inline;
+  margin-bottom: 0;
+  font-size: 23px;
+}
+
+#list .photo .about p {
+  margin-top: 30px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
